@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    printf("Enter minutes to convert it into hours and minutes format");
+    printf("Enter minutes to convert it into hours and minutes format\n");
     scanf("%d",&a);
     printf("%d Hours %d Minutes",a/60,a%60);
 
